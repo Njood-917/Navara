@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 9999;
+
+}
+/*main page start*/
+
+/*navbar start*/
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color :#f8f9fa!important;
+    position:fixed;
+    padding: 10px;
+    align-items: center;
+    position: static;
+    
+  
+}
+.nav-logo a {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgba(73, 70, 73, 0.705);
+    text-decoration: none;
+}
+.nav-logo a:hover{
+    
+    color: rgb(27, 27, 27);
+}
+
+.nav-links a{
+   
+    margin: 20px;
+    font-size: large;
+    text-decoration: none;
+    color: rgba(163, 158, 163, 0.705);
+    letter-spacing: 5px;
+
+}
+.nav-links a:hover{
+    color: rgba(236, 232, 236, 0.705);
+}
+/*navbar end*/
+/*about start*/
+
+.background-img img{   
+    margin-top: 5px;
+    min-width: 100%;
+    min-height: 100%;
+    transform: scale(1.03);
+    transition: all 0.7s ease;
+    background-repeat: no repeat;
+background-size: cover;
+background-position: center;
+/* margin-left: -100px; */
+width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.background-img img:hover{
+    transform: scale(1);
+}
+.text-front{
+    position: absolute;
+    
+}
+.text-front h1{
+    font-family: 'chloeregular';
+    font-size: 80px;
+    color: rgba(73, 70, 73, 0.705);
+    font-weight: 600;
+}
+
+/*about end*/
+/*must-have sec start*/
+
+.must-haves{
+    padding: 40px 0px;
+
+}
+
+.must-haves h2{
+    font-family: 'chloeregular';
+    font-size: 50px;
+    color: rgba(73, 70, 73, 0.705);
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-align: center;   
+ }
+ .must-haves p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgba(73, 70, 73, 0.705);
+    font-weight: 200;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-align: center; 
+    font-size: 15px;
+ }
+
+ .products {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.products .boxes {
+    text-align: center; 
+    margin-top: 10px;  
+ }
+ .products .boxes img{
+    border-radius: 7px;
+ }
+ .products .boxes  h3{
+    color: rgb(109, 106, 106);
+    font-family: 'chloeregular'; 
+ }
+
+ .products .boxes .btnn{
+    margin-top: 5px;
+    padding: 7px;
+    background-color: #b7babe;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ececec;
+    border: none;
+ }
+ .products .boxes .btnn:hover{
+    background-color: #8a93a5;
+    color: black;
+ }
+ /*must-have sec end*/
+ /*main page end*/
+
+
+ /*start detailes page */
+ 
+ .detailes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+   /* max-height: 100vh; */
+ }
+ .detailes-img{
+  width: 100%;
+  height: 500px;
+ }
+ .detailes .card p{
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #787d85;
+    margin-top: 7px;
+
+ }
+ .detailes .card .purches{
+    text-align: center;
+    margin-top: 7px;
+ }
+ .detailes .card .purches label{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #2b2b2c;
+ }
+ .detailes .card .purches input{
+    padding: 10px;
+    width: 30px;
+    background-color:  #b7babe;
+    border-radius: 5px;
+ }
+ .detailes .card .purches .btnn{
+    margin-top: 5px;
+    padding: 10px 30px; 
+    background-color: #b7babe;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border: none;
+ }
+
+ .detailes .card .purches .btnn:hover{
+    background-color: #8a93a5;
+    color: #ececec;
+    
+ }
+/*start sign up page */
+
+ .sign-page{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 15px;
+
+ }
+
+ .start-sign h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7f848d;
+    
+ }
+ 
+ 
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    
+}
+
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color:rgb(160, 122, 196);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #434a52;
+}
+ /*end sign up page */
+ /*start before-purchase page */
+
+ .before-page{
+    background-color: #f5e1f3f8;
+ }
+
+ .before-purchas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.before-purchas img {
+   border-radius: 50px;
+   
+}
+
+.text-purchas{
+    text-align: center;
+}
+.text-purchas h3 {
+    margin: 0; 
+  margin-bottom: 5px;
+ color: #7f848d;
+ font-size: 30px;
+   
+}
+
+.text-purchas  p {
+    color: #b7babe;
+
+}
+.text-purchas label{
+    color: #3d3b3d;
+}
+.text-purchas input{
+    align-items: center;
+    width: 20px;
+
+}
+.btn-confirm{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 10px;
+ margin-left: 500px;
+}
+
+.btn-confirm button{
+    background-color:rgb(160, 122, 196);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.btn-confirm button:hover{
+    background-color: #434a52;
+}
+
+ /*end before-purchase page */
+/*start thanx page */
+.thanx-page{
+background-color: #d8c7e4;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.thanx-text{
+    margin-top: 30px;
+    text-align: center;
+    padding: 15px;
+    color: #4b484d;
+    font-size: 30px;
+}
+.thanx-img img{
+    margin-top: 7px;
+    margin-left: 120px;
+    border-radius: 50px;
+}
+.thanx-img button{
+    background-color: #434a52;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 200px;
+
+}
+
+.thanx-img button:hover{
+    background-color:rgb(160, 122, 196);
+}
+
+/*end thanx page */
+/*start help page*/
+
+.questions{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    margin: 10px;
+    
+    
+}
+.qa {
+    margin-bottom: 20px;
+    background-color: #e8e4eb;
+    padding: 20px 90px;
+    width: 100%;
+    border-radius: 15px;
+}
+.qa summary {
+    font-size: 15px;
+    font-weight: 700;
+    color: #59575a;
+}
+/*contact page*/
+
+
+.contact{
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.contact h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(87, 62, 97, 0.596);
+    font-size: 25px;
+}
+.contact form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact form label input textarea {
+    display: block;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: 400;
+    color: #49454b;
+  }
+
+  .contact form input textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+  }
+  textarea {
+    resize: vertical;
+  }
+
+  .contact form button {
+    background-color: #7e6e92;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contact form button:hover {
+    background-color: #4caf50;
+  }
+
+  /*end contact page */
+
+
